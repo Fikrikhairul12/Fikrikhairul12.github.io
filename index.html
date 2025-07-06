@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Fikri Khairul - Web Developer & Mobile Developer.">
+    <meta name="keywords" content="Fikri, Web Developer, Mobile Developer, Flutter, Laravel, Tailwind">
+    <meta name="author" content="Fikri Khairul">
+    <title>Portfolio Fikri</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" href="img/foto.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">Fikri Khairul</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Keahlian</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- home section start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 data-aos="fade-up" data-aos-duration="1000"
+                        class="text-base font-semibold text-primary md:text-xl">Halo Pengunjung 👋, Saya <span
+                            class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Fikri Khairul Ardiansyah</span>
+                    </h1>
+                    <h2 data-aos="fade-up" data-aos-delay="200"
+                        class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Web Developer | Mobile Developer
+                    </h2>
+                    <p data-aos="fade-up" data-aos-delay="400"
+                        class="font-medium text-secondary mb-10 leading-relaxed ">Seorang Web Developer dan Mobile
+                        Developer yang berfokus pada pengembangan solusi digital yang efektif dan fungsional.</p>
+                    <!-- Bio -->
+
+                    <a data-aos="zoom-in" data-aos-delay="600" href="#contact"
+                        class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi
+                        Saya</a>
+                </div>
+
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-0 lg:right-0">
+                        <img src="img/foto.png" alt="foto profil" class="max-w-full mx-auto">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#3b82f6"
+                                    d="M42.4,-60C56.2,-48.2,69.7,-37.6,72,-24.8C74.4,-11.9,65.5,3.3,56.3,14.1C47,25,37.3,31.5,27.9,41.2C18.4,50.9,9.2,63.8,0,63.7C-9.2,63.7,-18.3,50.8,-32.8,42.7C-47.3,34.6,-67,31.4,-71,22.3C-75,13.2,-63.3,-1.8,-55.2,-15.3C-47.2,-28.9,-42.9,-41,-34.3,-54.5C-25.7,-67.9,-12.9,-82.7,0.7,-83.7C14.3,-84.6,28.5,-71.7,42.4,-60Z"
+                                    transform="translate(100 100)scale(1.1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- About section start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 data-aos="fade-right" class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+                    <h2 data-aos="fade-right" data-aos-delay="200"
+                        class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Solusi Digital Lewat
+                        Website & Mobile App</h2>
+                    <!-- Judul about -->
+                    <p data-aos="fade-right" data-aos-delay="400"
+                        class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah seorang Web dan
+                        Mobile Developer yang berfokus pada membangun solusi digital yang cepat, efisien, dan
+                        user-friendly. Saya terbiasa menggunakan tools seperti Firebase, GetX, dan TailwindCSS untuk
+                        menghasilkan aplikasi yang scalable dan modern.
+                    </p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 data-aos="fade-right" data-aos-delay="200"
+                        class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
+                    <p data-aos="fade-right" data-aos-delay="400" class="font-medium text-base text-secondary mb-6">Saya
+                        terbuka untuk kolaborasi, freelance
+                        project, maupun kerja sama jangka panjang. Jangan ragu untuk terhubung di media sosial atau
+                        langsung kirim pesan. Yuk, ngobrol!</p>
+                    <div data-aos="fade-left" data-aos-delay="600" class="flex items-center">
+                        <a href="https://www.instagram.com/fikrikha_12/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                                class='fab fa-instagram fill-current' style="font-size: 20px;"></i></a>
+                        <a href="https://www.linkedin.com/in/fikri-khairul-86b5082ab/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                                class='fab fa-linkedin fill-current' style="font-size: 20px;"></i></a>
+                        <a href="https://www.tiktok.com/@fikrikhairul12?_t=ZS-8xfdwJgYOZ7&_r=1" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                                class='fab fa-tiktok fill-current' style="font-size: 20px;"></i></a>
+                        <a href="https://wa.me/6285692649627" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                                class='fab fa-whatsapp fill-current' style="font-size: 20px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Skills Section start -->
+    <section id="skills" class="pt-20 pb-20 bg-slate-50">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 data-aos="fade-right" class="font-semibold text-lg text-primary mb-2">Keahlian</h4>
+                    <h2 data-aos="fade-right" data-aos-delay="200" class="font-bold text-dark text-3xl mb-4">Tech Stack
+                        Saya</h2>
+                    <p data-aos="fade-right" data-aos-delay="400" class="font-medium text-md text-secondary">
+                        Berikut adalah bahasa pemrograman dan tools yang sering saya gunakan dalam pengembangan Web dan
+                        Mobile.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="600" class="flex flex-wrap justify-center gap-8 px-4 text-center">
+                <!-- Skill Card -->
+                <div class="w-24">
+                    <i class='fab fa-html5 fill-current w-12 h-12 mb-2' style="font-size: 40px;"></i>
+                    <p class="text-sm font-medium text-dark">HTML</p>
+                </div>
+                <div class="w-24">
+                    <i class='fab fa-css3-alt fill-current w-12 h-12 mb-2' style="font-size: 40px;"></i>
+                    <p class="text-sm font-medium text-dark">CSS</p>
+                </div>
+                <div class="w-24">
+                    <i class='fab fa-js fill-current w-12 h-12 mb-2' style="font-size: 40px;"></i>
+                    <p class="text-sm font-medium text-dark">JavaScript</p>
+                </div>
+                <div class="w-24">
+                    <i class='fab fa-laravel fill-current w-12 h-12 mb-2' style="font-size: 40px;"></i>
+                    <p class="text-sm font-medium text-dark">Laravel</p>
+                </div>
+                <div class="w-24">
+                    <img src="img/flutter-svgrepo-com (2).svg" alt="Flutter" class="mx-auto w-12 h-12 mb-2">
+                    <p class="text-sm font-medium text-dark">Flutter</p>
+                </div>
+                <div class="w-24">
+                    <img src="img/firebase-svgrepo-com (1).svg" alt="Firebase" class="mx-auto w-12 h-12 mb-2">
+                    <p class="text-sm font-medium text-dark">Firebase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section end -->
+
+    <!-- Porto Section start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
+                    <p class="font-medium text-md text-secondary">Berikut beberapa proyek terbaru saya dalam
+                        pengembangan web dan aplikasi mobile.</p>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="text-center mb-10">
+                    <button
+                        class="filter-btn bg-primary text-white px-4 py-2 rounded-full m-1 hover:opacity-80 hover:shadow-lg transition duration-500"
+                        data-filter="all">Semua</button>
+                    <button
+                        class="filter-btn bg-primary text-white px-4 py-2 rounded-full m-1 hover:opacity-80 hover:shadow-lg transition duration-500"
+                        data-filter="web">Web
+                        Dev</button>
+                    <button
+                        class="filter-btn bg-primary text-white px-4 py-2 rounded-full m-1 hover:opacity-80 hover:shadow-lg transition duration-500"
+                        data-filter="mobile">Mobile
+                        Dev</button>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="project-item mb-12 p-4 md:w-1/2" data-aos="zoom-in-up" data-aos-delay="100"
+                    data-category="web">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/portfolio/Screenshot (149).png" alt="talk to me project" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3 hover:text-primary">Website Konsultasi Mental
+                        "Talk To Me"</h3>
+                    <p class="font-medium text-base text-secondary">Platform web untuk konsultasi psikologi
+                    </p>
+                </div>
+                <div class="project-item mb-12 p-4 md:w-1/2" data-aos="zoom-in-up" data-aos-delay="200"
+                    data-category="web">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/portfolio/Screenshot (216).png" alt="demand project" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3 hover:text-primary">Website Pencari Kerja
+                        "Demand"</h3>
+                    <p class="font-medium text-base text-secondary">Website pencari kerja dengan fitur client dan
+                        freelancer.
+                    </p>
+                </div>
+                <div class="project-item mb-12 p-4 md:w-1/2" data-aos="zoom-in-up" data-aos-delay="100"
+                    data-category="mobile">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/portfolio/demand.png" alt="demand mobile project" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3 hover:text-primary">Mobile App Pencari Kerja
+                        "Demand"</h3>
+                    <p class="font-medium text-base text-secondary">Aplikasi Flutter untuk freelancer dan client dalam
+                        satu platform.
+                    </p>
+                </div>
+                <div class="project-item mb-12 p-4 md:w-1/2" data-aos="zoom-in-up" data-aos-delay="200"
+                    data-category="mobile">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/portfolio/flavorite.png" alt="flavorite mobile project" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3 hover:text-primary">Mobile App resep makanan
+                        "Flavorite"</h3>
+                    <p class="font-medium text-base text-secondary">Aplikasi resep makanan dengan Flutter + Firebase
+                        Auth & Firestore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Porto Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Hubungi Saya</h2>
+                    <p class="font-medium text-md text-secondary">Punya ide project, butuh bantuan, atau sekadar ingin
+                        ngobrol seputar teknologi? Yuk, kirim pesan ke saya!</p>
+                </div>
+            </div>
+            <form data-aos="fade-up" data-aos-duration="1000">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base text-primary font-bold">Nama</label>
+                        <input type="text" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base text-primary font-bold">Email</label>
+                        <input type="email" id="email"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base text-primary font-bold">Pesan</label>
+                        <textarea type="text" id="message"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button
+                            class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500 ">Kirim</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- footer start -->
+    <footer data-aos="fade-up" data-aos-delay="300" class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap ">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium lg:w-1/2">
+                    <h2 class="font-bold text-4xl text-white mb-5">Fikri Khairul</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi saya</h3>
+                    <p>khairulfikri1289@gmail.com</p>
+                    <p>085692649627</p>
+                    <p>Perumahan Nuansa Indah Bulak baru 1</p>
+                    <p>kec Pondok Gede, kel Jaticempaka, kota bekasi</p>
+                </div>
+                <div class="w-full px-4 mb-12 lg:w-1/2">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li><a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a></li>
+                        <li><a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                        </li>
+                        <li><a href="#portfolio" class="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                        </li>
+                        <li><a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-800">
+                <div class="flex items-center justify-center mb-5">
+                    <a href="https://www.instagram.com/fikrikha_12/" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                            class='fab fa-instagram fill-current' style="font-size: 20px;"></i></a>
+                    <a href="https://www.linkedin.com/in/fikri-khairul-86b5082ab/" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                            class='fab fa-linkedin fill-current' style="font-size: 20px;"></i></a>
+                    <a href="https://www.tiktok.com/@fikrikhairul12?_t=ZS-8xfdwJgYOZ7&_r=1" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                            class='fab fa-tiktok fill-current' style="font-size: 20px;"></i></a>
+                    <a href="https://github.com/Fikrikhairul12" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><i
+                            class='fab fa-github fill-current' style="font-size: 20px;"></i></a>
+                </div>
+                <p class="font-medium text-xs text-slate-500 text-center">Dibuat oleh <a href="https://www.instagram.com/fikrikha_12/" target="_blank" class="text-primary font-bold">Fikri Khairul</a>. Copyright&copy;
+                    2025</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="src/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
